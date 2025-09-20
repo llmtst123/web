@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <button id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <div class="logo">
+                    <a href="index.html">Sample Site</a>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- モバイルメニュー -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="menu-content">
+                <button id="menu-close" class="close-btn">&times;</button>
+                
+                <ul class="menu-links">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="#about">アバウト</a></li>
+                    <li><a href="#services">サービス</a></li>
+                    <li><a href="#contact">コンタクト</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- メニューオーバーレイ -->
+        <div id="menu-overlay" class="menu-overlay"></div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>シンプルなサイト</h1>
+                <p>ここにキャッチコピーが入ります</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
