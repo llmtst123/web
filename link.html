@@ -1,2 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リンク集 - サンプルサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <button id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <div class="logo">
+                    <a href="index.html">Sample Site</a>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- モバイルメニュー -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="menu-content">
+                <button id="menu-close" class="close-btn">&times;</button>
+                
+                <ul class="menu-links">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="#about">アバウト</a></li>
+                    <li><a href="#services">サービス</a></li>
+                    <li><a href="link.html">リンク集</a></li>
+                    <li><a href="#contact">コンタクト</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- メニューオーバーレイ -->
+        <div id="menu-overlay" class="menu-overlay"></div>
+    </header>
 
-test
+    <!-- メインコンテンツ -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>リンク集</h1>
+                <p>便利なサイトへのリンクをまとめました</p>
+            </div>
+        </section>
+        
+        <section class="links-section">
+            <div class="container">
+                <div class="links-grid">
+                    <!-- 検索エンジン -->
+                    <div class="link-category">
+                        <h2>検索エンジン</h2>
+                        <ul class="link-list">
+                            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                            <li><a href="https://www.yahoo.co.jp" target="_blank">Yahoo! JAPAN</a></li>
+                            <li><a href="https://www.bing.com" target="_blank">Bing</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- SNS -->
+                    <div class="link-category">
+                        <h2>SNS</h2>
+                        <ul class="link-list">
+                            <li><a href="https://twitter.com" target="_blank">Twitter (X)</a></li>
+                            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- ニュース -->
+                    <div class="link-category">
+                        <h2>ニュース</h2>
+                        <ul class="link-list">
+                            <li><a href="https://www3.nhk.or.jp/news/" target="_blank">NHK NEWS WEB</a></li>
+                            <li><a href="https://news.yahoo.co.jp" target="_blank">Yahoo!ニュース</a></li>
+                            <li><a href="https://www.asahi.com" target="_blank">朝日新聞デジタル</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- 開発関連 -->
+                    <div class="link-category">
+                        <h2>開発・技術</h2>
+                        <ul class="link-list">
+                            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                            <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+                            <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
